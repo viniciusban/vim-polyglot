@@ -6,9 +6,6 @@ let b:did_indent = 1
 setlocal nolisp
 setlocal autoindent
 
-" Accept various markers as bullets
-setlocal comments=b:*,b:+,b:-
-
 " Automatically continue blockquote on line break
 setlocal comments+=b:>
 
